@@ -11,9 +11,9 @@ export const SideNavBar: React.FC = () => {
         title: "Contacts",
       },
       {
-        to: "/reports",
+        to: "/disease-tracker",
         icon: <ReportsIcon size={"24"} />,
-        title: "Reports",
+        title: "Disease Tracker",
       },
     ];
 

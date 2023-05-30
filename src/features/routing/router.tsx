@@ -4,6 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Root } from "./views";
 import { Contacts } from "../contact-management/views";
 import { CreateContact } from "../contact-management/views/create-contact";
+import { DiseaseTracker } from "../disease-tracker/views/disease-tracker";
 
 export const router = createBrowserRouter([
   {
@@ -16,12 +17,12 @@ export const router = createBrowserRouter([
         element: <Contacts />,
       },
       {
-        path: "reports",
-        element: <></>,
-      },
-      {
         path: "contacts/create-contact",
         element: <CreateContact />,
+      },
+      {
+        path: "disease-tracker",
+        element: <DiseaseTracker />,
       },
     ],
   },

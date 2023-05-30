@@ -31,7 +31,10 @@ export const Contacts: React.FC = () => {
       </button>
       {contacts.length === 0 ? (
         <div>
-          <p className={"text-2xl"}>No contacts found. Please add contacts using create contact button</p>
+          <p className={"text-2xl mt-[8px] text-center"}>
+            No contacts found. <br />
+            Please add contacts using create contact button
+          </p>
         </div>
       ) : (
         <div className={"mt-[32px] flex gap-[8px] flex-wrap"}>
